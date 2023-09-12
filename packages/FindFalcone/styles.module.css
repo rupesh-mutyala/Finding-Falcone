@@ -1,0 +1,106 @@
+.main_content {
+    width: 80%;
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 500;
+    width: fit-content;
+    margin: 48px auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 12px 40px;
+    background: #09c9a9;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    flex: 0 0 23%;
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 24px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.select {
+    margin-top: 20px;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: unset;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.vehicles {
+    margin-top: 20px;
+}
+
+.vehicle_option {
+    margin: 16px 0px;
+    color: #fff;
+
+    .disabled {
+        cursor: not-allowed;
+    }
+}
+
+.button {
+    color: #fff;
+    background-color: #28a745;
+    padding: 12px 24px;
+    font-size: 24px;
+    border: 2px solid #28a745;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: fit-content;
+
+    &.disabled {
+        background-color: #f2f2f2;
+        color: #ccc;
+        cursor: not-allowed;
+        border: 1px solid #ccc;
+    }
+}
+
+.reset_button {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: fit-content;
+    margin-right: 32px;
+}
+
+.flex {
+    display: flex;
+    margin: 64px auto;
+}
+
+.time_taken {
+    color: #212529;
+    background-color: #ffc107;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
