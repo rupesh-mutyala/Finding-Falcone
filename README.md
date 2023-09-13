@@ -35,15 +35,10 @@ The *Find Falcone* button will only be enabled when all radio groups are selecte
 
 -------
 
-King Shan has received intelligence that Al Falcone is in hiding in one of these 6 planets - DonLon, Enchai, Jebing,
-Sapir, Lerbin & Pingasor. However he has limited resources at his disposal & can send his army to only 4 of these
-planets.
-This coding problem is to help King Shan find Al Falcone.
-
 This UI will enable King Shan to -
-- select 4 planets to search (out of the total 6)
-- select which space vehicles to send to these planets
-- see how much time it will take for the vehicles to reach their targets &
-- show final result of success or failure 
+- select 4 planets to search (out of the total 6).
+- select which space vehicles to send for these repective planets
+- see how much time it will take for the vehicles to reach their targets
+- show final result whether it is success or failure 
 
 Check this out @ https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/
