@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+GeekTrust Finding Falcone coding challenge. This project is done using React and Next framework.
 
-## Getting Started
+### Build
+This project uses create Next app for the build . The build can be triggered using npm scripts. The project is built and deployed here (https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/
+)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the project 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### HTML/CSS
+Project is semantically structed using HTML5 Semantic elements like `header`, `footer` and `section` elements. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Extensible 
+The project uses Redux to decouple the State and the components which itself do not have any state. Adding another planet is as simple as adding another destination in `Constants.js` with no other change to code.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Responsive
+The project use `Material UI` and is built Mobile First. The project uses Containers and grids to enforce responsiveness across all device breakpoints.
 
-To learn more about Next.js, take a look at the following resources:
+### Tests
+The project uses `Jest` to test Stores and the UI.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dependency Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project uses Yarn (instead of NPM) as its dependency manager. The Dependencies are loaded as NPM modules using import that Webpack is able to understand.
 
-## Deploy on Vercel
+### Modularity
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project uses `Redux` to extract the state management out of the React components.The React components themselves are *Dumb* and only react to Props passed from stores.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Error Handling
+The *Find Falcone* button will only be enabled when all radio groups have atleast one selection. Colour coding will help the user understand which one is missing a selection. In case of server error , error messages inform the user and nudges her to try again.
+
+-------
+
+King Shan has received intelligence that Al Falcone is in hiding in one of these 6 planets - DonLon, Enchai, Jebing,
+Sapir, Lerbin & Pingasor. However he has limited resources at his disposal & can send his army to only 4 of these
+planets.
+This coding problem is to help King Shan find Al Falcone.
+
+This UI will enable King Shan to -
+- select 4 planets to search (out of the total 6)
+- select which space vehicles to send to these planets
+- see how much time it will take for the vehicles to reach their targets &
+- show final result of success or failure 
+
+Check this out @ https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/
