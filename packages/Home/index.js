@@ -1,7 +1,11 @@
 import { useRouter } from 'next/router';
+import { useSelector } from 'react-redux';
 import styles from './styles.module.css';
+import Footer from '../../commons/Footer';
 
 function Home() {
+	const { vehicles, planets } = useSelector((state) => state);
+
 	const router = useRouter();
 
 	return (
@@ -23,6 +27,8 @@ function Home() {
 				However he has limited resources at his disposal & can send his army to
 				only 4 of these planets.
 			</div>
+
+			<Footer vehicles={vehicles} planets={planets} />
 
 			<div className={styles.question_text}>
 				Can you help King Shan in finding Queen Al Falcone?

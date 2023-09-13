@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 80px;
+
+    @media (max-width: 444px) {
+        font-size: 24px;
+	}
+}
+
+.planets {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 24px;
+    color: #e83e8c;
+
+    @media (max-width: 420px) {
+        font-size: 20px;
+	}
+}
+
+
+.planet {
+    flex-basis: 15%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ABBAEA;
+    box-sizing: border-box;
+    margin-top: 12px;
+    
+    @media (max-width: 1080px) {
+        flex-basis: 18%;
+	}
+
+    @media (max-width: 888px) {
+        flex-basis: 24%;
+	}
+
+    @media (max-width: 700px) {
+        flex-basis: 32%;
+	}
+
+    @media (max-width: 500px) {
+        flex-basis: 48%;
+	}
+}
+
+.vehicle {
+    flex-basis: 24%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #ABBAEA;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 12px;
+
+    @media (max-width: 1000px) {
+        flex-basis: 32%;
+	}
+
+    @media (max-width: 800px) {
+        flex-basis: 48%;
+	}
+
+    @media (max-width: 400px) {
+        flex-basis: 100%;
+	}
+}
+
+.text {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 18px;
+
+    @media (max-width: 700px) {
+        font-size: 14px;
+	}
+}

@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import styles from './styles.module.css';
 import toStartCase from '../../utils/toStartCase';
 import { setTimeTaken, resetTimeTaken } from '../../store/reducers/time-taken';
+import Footer from '../../commons/Footer';
 
 const DEFAULT_VALUES = {
 	planet_one: { planet: '', vehicle: '' },
@@ -241,6 +242,8 @@ function FindFalcone() {
 					Find Falcone!
 				</button>
 			</div>
+
+			<Footer vehicles={vehicles} planets={planets} />
 		</div>
 	);
 }
