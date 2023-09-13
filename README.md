@@ -1,6 +1,6 @@
 # GeekTrust Finding Falcone
 
-Welcome to the GeekTrust Finding Falcone coding challenge. This project is built using React and the Next.js framework. This project is [deployed here](https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/)
+Welcome to the GeekTrust Finding Falcone coding challenge. This project is built using React and the Next.js framework. [This project is deployed here](https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/)
 
 ## Table of Contents
 
