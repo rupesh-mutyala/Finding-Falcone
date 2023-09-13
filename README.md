@@ -13,7 +13,6 @@ Welcome to the GeekTrust Finding Falcone coding challenge. This project is built
   - [User-Friendly Error Handling](#user-friendly-error-handling)
 - [Mission Objectives](#mission-objectives)
 - [Launch the Mission](#launch-the-mission)
-- [Experience the Adventure](#experience-the-adventure)
 
 ## Getting Started
 
@@ -56,4 +55,4 @@ With this user-friendly UI, you can assist King Shan in:
 - 
 ## Launch the Mission
 
-Start your extraordinary journey now at [GeekTrust Finding Falcone](https://example.com/falcone-app) and become a part of the adventure!
+Start your extraordinary journey now at [GeekTrust Finding Falcone](https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/) and become a part of the adventure!
