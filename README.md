@@ -33,13 +33,10 @@ To build and run the project, follow these steps:
 We've harnessed the power of Redux to manage the state of planets, vehicles, and total travel time. Redux ensures a robust and organized state management system, making the application highly maintainable and extensible.
 
 ### Responsive Design
-Our project is designed to adapt to various devices and screen sizes. We've used media queries to provide a seamless experience across desktops, tablets, and smartphones.
-
-### Dependency Management
-We rely on Yarn as our dependency manager, ensuring efficient package management and reproducibility of your development environment.
+This project is designed to adapt to various devices and screen sizes. I've used media queries to provide a seamless experience across desktops, tablets, and smartphones.
 
 ### Modular Architecture
-To enhance code maintainability and readability, we've adopted a modular approach. The project leverages Redux to extract state management logic from React components, promoting clean and organized code.
+To enhance code maintainability and readability, I've adopted a modular approach. The project leverages Redux to extract state management logic from React components, promoting clean and organized code.
 
 ### User-Friendly Error Handling
 Our user interface offers a smooth experience. The "Find Falcone" button is activated only when all necessary selections are made, complemented by color cues for clear user guidance. We've also included a reset button to clear selected fields. In case of API failures, our error handling mechanism provides options for refreshing the data, ensuring an uninterrupted journey.
