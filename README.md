@@ -1,44 +1,59 @@
-GeekTrust Finding Falcone coding challenge. This project is done using React and Next framework.
+# GeekTrust Finding Falcone
 
-### Build
-This project uses create Next app for the build . The build can be triggered using npm scripts. The project is built and deployed here (https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/
-)
+Welcome to the GeekTrust Finding Falcone coding challenge. This project is built using React and the Next.js framework.
 
-```
-yarn
-```
+## Table of Contents
 
-Start the project 
+- [Getting Started](#getting-started)
+- [Features](#features)
+  - [Extensible State Management](#extensible-state-management)
+  - [Responsive Design](#responsive-design)
+  - [Dependency Management](#dependency-management)
+  - [Modular Architecture](#modular-architecture)
+  - [User-Friendly Error Handling](#user-friendly-error-handling)
+- [Mission Objectives](#mission-objectives)
+- [Launch the Mission](#launch-the-mission)
+- [Experience the Adventure](#experience-the-adventure)
 
-```
-yarn dev
-```
+## Getting Started
 
-### Extensible 
-The project uses Redux to store the planet, vehicles and total time taken. This provides a better state management
+To build and run the project, follow these steps:
 
+1. **Install Dependencies**: Ensure you have [Yarn](https://yarnpkg.com/) installed. Run the following command to install project dependencies:
 
-### Responsive
-I had used media queries to make this project responsive.
+   ```bash
+   yarn
+2. **Start the Project**: After successfully installing the dependencies, start the project:
 
+   ```bash
+   yarn dev
+
+## Features
+
+### Extensible State Management
+We've harnessed the power of Redux to manage the state of planets, vehicles, and total travel time. Redux ensures a robust and organized state management system, making the application highly maintainable and extensible.
+
+### Responsive Design
+Our project is designed to adapt to various devices and screen sizes. We've used media queries to provide a seamless experience across desktops, tablets, and smartphones.
 
 ### Dependency Management
+We rely on Yarn as our dependency manager, ensuring efficient package management and reproducibility of your development environment.
 
-The project uses Yarn (instead of NPM) as its dependency manager.
+### Modular Architecture
+To enhance code maintainability and readability, we've adopted a modular approach. The project leverages Redux to extract state management logic from React components, promoting clean and organized code.
 
-### Modularity
-
-The project uses `Redux` to extract the state management out of the React components.
-
-### Error Handling
-The *Find Falcone* button will only be enabled when all radio groups are selected and i have given proper color grading for the user to understand. Also we have have given a reset button to reset the selected fields. In any case if the get api failed we have a error navigation which consists of refresh to check if the data is available
+### User-Friendly Error Handling
+Our user interface offers a smooth experience. The "Find Falcone" button is activated only when all necessary selections are made, complemented by color cues for clear user guidance. We've also included a reset button to clear selected fields. In case of API failures, our error handling mechanism provides options for refreshing the data, ensuring an uninterrupted journey.
 
 -------
 
-This UI will enable King Shan to -
-- select 4 planets to search (out of the total 6).
-- select which space vehicles to send for these repective planets
-- see how much time it will take for the vehicles to reach their targets
-- show final result whether it is success or failure 
+## Mission Objectives
+With this user-friendly UI, you can assist King Shan in:
+- Selecting up to 4 planets to search from a total of 6.
+- Choosing the suitable space vehicles for each selected planet.
+- Calculating the estimated time for the vehicles to reach their respective targets.
+- Observing the final mission result, whether it's a successful venture or a valiant attempt.
+- 
+## Launch the Mission
 
-Check this out @ https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/
+Start your extraordinary journey now at [GeekTrust Finding Falcone](https://example.com/falcone-app) and become a part of the adventure!
