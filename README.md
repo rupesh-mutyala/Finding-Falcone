@@ -1,6 +1,6 @@
 # GeekTrust Finding Falcone
 
-Welcome to the GeekTrust Finding Falcone coding challenge. This project is built using React and the Next.js framework.
+Welcome to the GeekTrust Finding Falcone coding challenge. This project is built using React and the Next.js framework. This project is [deployed here](https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/)
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ With this user-friendly UI, you can assist King Shan in:
 - Choosing the suitable space vehicles for each selected planet.
 - Calculating the estimated time for the vehicles to reach their respective targets.
 - Observing the final mission result, whether it's a successful venture or a valiant attempt.
-- 
+
 ## Launch the Mission
 
 Start your extraordinary journey now at [GeekTrust Finding Falcone](https://650142cd720b2c3769cc678f--sparkly-pudding-976d55.netlify.app/) and become a part of the adventure!
