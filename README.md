@@ -14,29 +14,24 @@ Start the project
 yarn dev
 ```
 
-### HTML/CSS
-Project is semantically structed using HTML5 Semantic elements like `header`, `footer` and `section` elements. 
-
 ### Extensible 
-The project uses Redux to decouple the State and the components which itself do not have any state. Adding another planet is as simple as adding another destination in `Constants.js` with no other change to code.
+The project uses Redux to store the planet, vehicles and total time taken. This provides a better state management
 
 
 ### Responsive
-The project use `Material UI` and is built Mobile First. The project uses Containers and grids to enforce responsiveness across all device breakpoints.
+I had used media queries to make this project responsive.
 
-### Tests
-The project uses `Jest` to test Stores and the UI.
 
 ### Dependency Management
 
-The project uses Yarn (instead of NPM) as its dependency manager. The Dependencies are loaded as NPM modules using import that Webpack is able to understand.
+The project uses Yarn (instead of NPM) as its dependency manager.
 
 ### Modularity
 
-The project uses `Redux` to extract the state management out of the React components.The React components themselves are *Dumb* and only react to Props passed from stores.
+The project uses `Redux` to extract the state management out of the React components.
 
 ### Error Handling
-The *Find Falcone* button will only be enabled when all radio groups have atleast one selection. Colour coding will help the user understand which one is missing a selection. In case of server error , error messages inform the user and nudges her to try again.
+The *Find Falcone* button will only be enabled when all radio groups are selected and i have given proper color grading for the user to understand. Also we have have given a reset button to reset the selected fields. In any case if the get api failed we have a error navigation which consists of refresh to check if the data is available
 
 -------
 
